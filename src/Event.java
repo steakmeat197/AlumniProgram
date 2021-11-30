@@ -15,6 +15,7 @@ public class Event {
 
     // constructors
     public Event(Host host) {
+        this.host = host;
      }
     public Host getHost(){
         return host;
@@ -22,11 +23,12 @@ public class Event {
 
      //method
     public void Alumni(Alumni alumni){
-        alumni = guestSpeaker;}
-
+        alumni = guestSpeaker;
         public static void main(String[] args){
+            Alumni obj = new Alumni();
+        }
     } 
-
+         
      
      // existing event
     public Event(int id, String name, String time, int room, int numberOfParticipants, String startDate,
