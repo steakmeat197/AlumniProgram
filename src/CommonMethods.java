@@ -1,6 +1,20 @@
 public interface CommonMethods {
+
+    /**
+     * Get Name
+     * @return Name
+     */
     String getName();
-    String getID();
-    void setName();
-    Void setID();
+
+    /**
+     * Get ID
+     * @return ID
+     */
+    int getID();
+
+    /**
+     * Set Name
+     * @param name New Name
+     */
+    void setName(String name);
 }
